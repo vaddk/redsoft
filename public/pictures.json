@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "«Рождение Венеры» Сандро Боттичелли",
+    "src": "/images/pictures/the-birth-of-venus.png",
+    "price": 1000000,
+    "oldPrice": 2000000,
+    "available": true
+  },
+  {
+    "id": 2,
+    "title": "«Тайная вечеря»  Леонардо да Винчи",
+    "src": "/images/pictures/the-last-supper.png",
+    "price": 3000000,
+    "available": true
+  },
+  {
+    "id": 3,
+    "title": "«Сотворение Адама» Микеланджело",
+    "src": "/images/pictures/the-creation-of-adam.png",
+    "price": 5000000,
+    "oldPrice": 6000000,
+    "available": true
+  },
+  {
+    "id": 4,
+    "title": "«Урок анатомии» Рембрандт",
+    "src": "/images/pictures/anatomy-lesson.png",
+    "available": false
+  }
+]

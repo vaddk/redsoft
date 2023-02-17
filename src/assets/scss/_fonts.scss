@@ -1,0 +1,10 @@
+@import 'mixins';
+
+@include font-face('Merriweather', '/fonts/Merriweather-Light', 300, normal, woff2 woff);
+@include font-face('Merriweather', '/fonts/Merriweather-LightItalic', 300, italic, woff2 woff);
+@include font-face('Merriweather', '/fonts/Merriweather-Regular', 400, normal, woff2 woff);
+@include font-face('Merriweather', '/fonts/Merriweather-Italic', 400, italic, woff2 woff);
+@include font-face('Merriweather', '/fonts/Merriweather-Bold', 700, normal, woff2 woff);
+@include font-face('Merriweather', '/fonts/Merriweather-BoldItalic', 700, italic, woff2 woff);
+@include font-face('Merriweather', '/fonts/Merriweather-Black', 900, normal, woff2 woff);
+@include font-face('Merriweather', '/fonts/Merriweather-BlackItalic', 900, italic, woff2 woff);

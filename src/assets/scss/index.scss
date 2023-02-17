@@ -1,0 +1,66 @@
+@import 'fonts';
+@import 'vars';
+
+* {
+  box-sizing: border-box;
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+	height: 100%;
+  background-color: #F6F3F3;
+}
+
+body {
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	font-family: $default-font;
+	overflow-x: hidden;
+  margin: 0;
+  * {
+    font-family: inherit;
+  }
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  line-height: 1.5;
+  color: #343030;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  transition: color 0.2s;
+  text-decoration: none;
+  &:hover {
+    color: #776763;
+  }
+  &:visited {
+    color: inherit;
+  }
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+  margin: 45px 0;
+}
+
+@import 'grid';
+@import 'headers';
+@import 'buttons';
